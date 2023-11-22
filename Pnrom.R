@@ -1,0 +1,5 @@
+a <- seq(-7,7,by=0.2)
+b <- pnorm(a,mean=2.5,sd=1)
+png(file="pnorm.png")
+plot(a,b)
+dev.off()
